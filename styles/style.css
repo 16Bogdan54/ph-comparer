@@ -1,0 +1,132 @@
+.container {
+  padding: 0 2rem;
+}
+
+.comparable-images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.first-comparable-block {
+  width: 100%;
+  height: 100%;
+}
+
+.first-comparable-block .first-image {
+  width: 100%;
+  height: 100%;
+}
+
+.second-comparable-block .second-image {
+  width: 100%;
+  height: 100%;
+}
+
+.second-comparable-block .second-image {
+  display: none;
+}
+
+.comparer-functionality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1rem 0;
+}
+
+.comparer-functionality .comparer-heading {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.comparer-functionality .search-field {
+  border: 1px solid #5F785A;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+.comparer-functionality .search-field .search-field__input {
+  border: none;
+}
+
+.comparer-functionality .buttons {
+  padding: 1rem 0;
+}
+
+.comparer-functionality .buttons .apply-btn {
+  background: #5F785A;
+  border-radius: 10px;
+  color: white;
+  padding: .2rem 1rem;
+  outline: nono;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.comparer-functionality .buttons .exit-btn {
+  background: white;
+  border-radius: 10px;
+  color: #5F785A;
+  padding: .2rem 1rem;
+  outline: nono;
+  border: none;
+  font-size: 1rem;
+  border: 1px solid #5F785A;
+  cursor: pointer;
+}
+
+.comparer-functionality .mapChartFilter {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.comparer-functionality .mapChartFilter .icon {
+  margin: 0 1rem;
+}
+
+.images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.images .image-block {
+  width: 300px;
+  height: 300px;
+}
+
+.images .image-block .image {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
